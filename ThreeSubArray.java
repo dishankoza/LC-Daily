@@ -5,8 +5,6 @@ import java.util.stream.Collectors;
 class ThreeSubArray {
     public int[] maxSumOfThreeSubarrays(int[] nums, int k) {
         int[] res = new int[3];
-        HashMap<String, Integer> addNo = new HashMap<>();
-        HashMap<String, Integer> skipNo = new HashMap<>();
         int[] prefixSums = new int[nums.length + 1];
         prefixSums[0] = 0;
         for(int i = 0; i < nums.length; i++){

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinTicketCost",
+            "request": "launch",
+            "mainClass": "MinTicketCost",
+            "projectName": "LC-daily_7c7c823e"
+        },
+        {
+            "type": "java",
+            "name": "CountWaysToString",
+            "request": "launch",
+            "mainClass": "CountWaysToString",
+            "projectName": "LC-daily_7c7c823e"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "Solution",
